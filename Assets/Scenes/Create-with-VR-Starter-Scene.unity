@@ -1511,7 +1511,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 650672842}
-  - component: {fileID: 650672843}
   m_Layer: 0
   m_Name: Camera Offset
   m_TagString: Untagged
@@ -1537,22 +1536,6 @@ Transform:
   - {fileID: 712900737}
   m_Father: {fileID: 1313711681}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &650672843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650672841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34e1b4def61fa8348aed103e291bd215, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  conductColletion: 1
-  folderPath: C:\Users\silvi\OneDrive - ETH Zurich\Documents\Data
-  game: beatsaber
-  user: shuyuewang
 --- !u!1 &682404154
 GameObject:
   m_ObjectHideFlags: 0
@@ -3030,6 +3013,9 @@ MonoBehaviour:
   folderPath: C:\Users\silvi\Master's Projects\Data
   game: BeatSaber
   user: Shuyue
+  head: {fileID: 920921516}
+  leftController: {fileID: 364578167}
+  rightController: {fileID: 712900743}
 --- !u!1 &1107894766
 GameObject:
   m_ObjectHideFlags: 0
